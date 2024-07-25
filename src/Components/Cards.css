@@ -1,0 +1,29 @@
+.card-container {
+    position: relative;
+    display: inline-block; /* Ensure the container wraps around the content */
+  }
+  
+  .add-button {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    z-index: 1;
+    background-color: #7e6f6a; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .add-button:hover {
+    background-color: #e64a19; /* Darker shade for hover effect */
+  }
+  
+  .card-link {
+    display: block; /* Ensure the link is a block element */
+    position: relative; /* Create a new stacking context for the link */
+    z-index: 0; /* Ensure the link is below the button */
+  }
+  

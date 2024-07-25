@@ -1,0 +1,9 @@
+.grid-container {
+    margin-left:20%;
+    margin-right:20%;
+    display: grid;
+    color:rgb(247, 210, 161);
+    grid-template-columns: repeat(2, 1fr); /* 3 equal columns */
+    gap: 10px; /* gap between grid items */
+    padding: 20px;
+}

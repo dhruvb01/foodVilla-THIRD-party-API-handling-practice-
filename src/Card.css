@@ -1,0 +1,21 @@
+.relative-container {
+    position: relative;
+    display: inline-block; /* Ensure the container wraps around the content */
+  }
+  
+  .label-style {
+    position: absolute;
+    top: 0px;             /* Adjust as needed */
+    left:0px;            /* Adjust as needed */
+    z-index: 1;            /* Ensure it appears above other elements */
+    background-color: #53eb45; /* Example style, customize as needed */
+    color: #333;           /* Example style, customize as needed */
+    padding: 5px 10px;     /* Example style, customize as needed */
+    border-radius: 4px;    /* Example style, customize as needed */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+  }
+  
+  .card-style {
+    position: relative;    /* Ensure the card is positioned within the container */
+  }
+  
